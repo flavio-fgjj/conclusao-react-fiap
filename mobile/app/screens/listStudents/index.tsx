@@ -25,7 +25,7 @@ const ListStudents = ({navigation}: ScreenProps) => {
       <StudentCard
         key={index}
         title={item.name}
-        age={item.age}
+        rm={item.rm}
         description={item.description}
         image={item.image}
         onPress={() => onPressCard(item)}

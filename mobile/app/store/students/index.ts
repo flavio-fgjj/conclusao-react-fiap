@@ -5,7 +5,7 @@ import {students} from './students';
 
 export interface IStudent {
   name: string;
-  age: string;
+  rm: string;
   image: string;
   description: string;
 }

@@ -7,7 +7,7 @@ import {styles} from './styles';
 
 interface StudentCardProps {
   title: string;
-  age: string;
+  rm: string;
   description: string;
   image: string;
   onPress: any;
@@ -16,7 +16,7 @@ interface StudentCardProps {
 export const StudentCard = ({
   image,
   title,
-  age,
+  rm,
   description,
   onPress,
 }: StudentCardProps) => {
@@ -28,21 +28,21 @@ export const StudentCard = ({
           uri: image,
         }}
         resizeMode="cover"
-        sharedTransitionTag={`image_${image}_${title}`}
+        sharedTransitionTag={`image_${rm}`}
       />
       <Animated.View style={styles.body}>
         <Animated.Text
           numberOfLines={1}
           ellipsizeMode="tail"
           style={styles.title}
-          sharedTransitionTag={`title_${title}_${age}`}>
-          {title} - {age}
+          sharedTransitionTag={`title_${rm}`}>
+          {title} - {rm}
         </Animated.Text>
         <Animated.Text
           numberOfLines={7}
           ellipsizeMode="tail"
           style={styles.description}
-          sharedTransitionTag={`description_${description}`}>
+          sharedTransitionTag={`description_${rm}`}>
           {description}
         </Animated.Text>
       </Animated.View>

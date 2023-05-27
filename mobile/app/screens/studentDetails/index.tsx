@@ -13,7 +13,7 @@ const StudentDetails = ({navigation}: ScreenProps) => {
   const student = useStudentsStore(state => state.student);
 
   useEffect(() => {
-    navigation.setOptions({title: `${student.name} - ${student.age}`});
+    navigation.setOptions({title: `${student.name} - ${student.rm}`});
   }, []);
 
   return (
@@ -25,17 +25,17 @@ const StudentDetails = ({navigation}: ScreenProps) => {
             uri: student.image,
           }}
           resizeMode="cover"
-          sharedTransitionTag={`image_${student.image}_${student.name}`}
+          sharedTransitionTag={`image_${student.rm}`}
         />
         <Animated.View style={styles.body}>
           <Animated.Text
             style={styles.title}
-            sharedTransitionTag={`title_${student.name}_${student.age}`}>
-            {student.name} - {student.age}
+            sharedTransitionTag={`title_${student.rm}`}>
+            {student.name} - {student.rm}
           </Animated.Text>
           <Animated.Text
             style={styles.description}
-            sharedTransitionTag={`description_${student.description}`}>
+            sharedTransitionTag={`description_${student.rm}`}>
             {student.description}
           </Animated.Text>
         </Animated.View>
