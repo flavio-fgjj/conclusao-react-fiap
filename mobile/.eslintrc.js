@@ -1,4 +1,48 @@
 module.exports = {
-  root: true,
-  extends: '@react-native-community',
+  env: {
+    es2021: true,
+    node: true,
+  },
+  extends: [
+    'airbnb',
+    'airbnb-typescript',
+    'plugin:react/recommended',
+    'plugin:prettier/recommended',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./mobile/tsconfig.json', './mobile/index.d.ts'],
+  },
+  plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier'],
+  rules: {
+    'prettier/prettier': 'error',
+    'import/prefer-default-export': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/prop-types': 0,
+    'react/jsx-filename-extension': [
+      1,
+      {
+        extensions: ['.js', '.jsx', '.tsx', '.ts'],
+      },
+    ],
+    'no-use-before-define': [
+      'error',
+      {
+        functions: false,
+        classes: false,
+      },
+    ],
+    'react/function-component-definition': [
+      2,
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
+  },
 };
