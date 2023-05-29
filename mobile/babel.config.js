@@ -21,6 +21,7 @@ module.exports = {
           '@router': './app/router',
           '@store': './app/store',
           '@theme': './app/theme',
+          '@assets': './app/assets',
         },
       },
     ],

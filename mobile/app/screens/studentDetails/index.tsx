@@ -1,3 +1,5 @@
+/* eslint-disable global-require */
+/* eslint-disable import/no-dynamic-require */
 import React, {useEffect} from 'react';
 import Animated from 'react-native-reanimated';
 
@@ -21,9 +23,7 @@ const StudentDetails = ({navigation}: ScreenProps) => {
       <Animated.ScrollView>
         <Animated.Image
           style={styles.image}
-          source={{
-            uri: student.image,
-          }}
+          source={student.image as any}
           resizeMode="cover"
           sharedTransitionTag={`image_${student.rm}`}
         />

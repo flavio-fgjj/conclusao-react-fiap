@@ -1,3 +1,5 @@
+/* eslint-disable global-require */
+/* eslint-disable import/no-dynamic-require */
 import React from 'react';
 import {Pressable} from 'react-native';
 import Animated from 'react-native-reanimated';
@@ -24,9 +26,7 @@ export const StudentCard = ({
     <Pressable onPress={onPress} style={styles.container}>
       <Animated.Image
         style={styles.image}
-        source={{
-          uri: image,
-        }}
+        source={image as any}
         resizeMode="cover"
         sharedTransitionTag={`image_${rm}`}
       />
