@@ -1,17 +1,15 @@
-import {StyleSheet} from 'react-native';
-
-export const styles = StyleSheet.create({
+export const styles = {
   container: {
-    width: '100%',
     borderWidth: 2,
     borderRadius: 8,
     marginVertical: 16,
-    backgroundColor: '#e0fbfc',
-    elevation: 4,
+    background: 'white',
+    boxShadow: '0 20px 50px rgba(0, 0, 0, 0.05)',
+    minHeight: 200,
+    width: 300,
   },
   image: {
     width: '100%',
-    height: 150,
     borderTopLeftRadius: 5,
     borderTopRightRadius: 5,
   },
@@ -21,12 +19,9 @@ export const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontWeight: 'bold',
-    marginBottom: 8,
-    color: 'black',
+    marginBottom: 16,
   },
   description: {
     fontSize: 14,
-    textAlign: 'justify',
-    color: 'black',
   },
-});
+};

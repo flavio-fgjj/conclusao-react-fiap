@@ -1,7 +1,6 @@
 import React from 'react';
 import {ListRenderItem} from 'react-native';
 
-// styles
 import {StudentCard} from '@components/StudentCard';
 import {useStudentsStore, IStudent} from '@store/students';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';

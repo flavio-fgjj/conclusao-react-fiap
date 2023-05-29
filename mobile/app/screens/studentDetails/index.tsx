@@ -1,9 +1,6 @@
-/* eslint-disable global-require */
-/* eslint-disable import/no-dynamic-require */
 import React, {useEffect} from 'react';
 import Animated from 'react-native-reanimated';
 
-// styles
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {RootStackParamList} from '@router/index.routes';
 import {useStudentsStore} from '@store/students';
