@@ -19,7 +19,7 @@ export const students = [
     rm: '345141',
     image: require('../../assets/flavio.jpg'),
     description:
-      'Trabalhador, apaixonado e motivado, com mais de 8 anos de experiência como Desenvolvedor. Atualmente cursando MBA em Desenvolvimento Mobile na FIAP em São Paulo. E na vida pessoal é casado, pai de dois filhos e tem hobbie praticar esportes e se reunir com amigos para tomar vinho, bater papo e dar risada!',
+      'Trabalhador, apaixonado e motivado, com mais de 8 anos de experiência como Desenvolvedor. Atualmente cursando MBA em Desenvolvimento Mobile na FIAP em São Paulo. E na vida pessoal é casado, pai de dois filhos e tem como hobbie praticar esportes e se reunir com amigos para tomar vinho, bater papo e dar risada!',
   },
   {
     name: 'Samuel Ribeiro',
