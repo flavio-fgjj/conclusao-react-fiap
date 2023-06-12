@@ -8,11 +8,11 @@ export const students = [
       'Desenvolvedor front-end na GFT, trabalha mais de 6 anos na area. Tem um perfil colaborativo e está constantemente em busca de novos conhecimentos, afim de se preparar para enfrentar novos desafios. Com foco em um trabalho objetivo, colaborativo e gerador de resultados.',
   },
   {
-    name: 'Test 1',
-    rm: '12343',
+    name: 'Danilo Santos',
+    rm: '344732',
     image: require('@assets/danilo.jpg'),
     description:
-      'Mussum Ipsum 1, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est.Admodum accumsan disputationi eu sit. Vide electram sadipscing et per.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.',
+      'Desenvolvedor, apaixonado por tecnologia, curioso por natureza. Graduado em Engenharia da Computação pela faculdade Anhembi Morumbi, tecnólogo em Sistema para Internet na faculdade Nove de Julho. Dez anos de experiência com desenvolvimento web, construindo e mantendo portais corporativos. MBA em Mobile Development pela FIAP, com foco em desenvolvimento mobile e conceitos de mobile First.',
   },
   {
     name: 'Teste 2',
