@@ -14,7 +14,7 @@ completion of course work
 # Screens
 |iOS|Android|Web
 | --- | ---- | --- |
-| ![.](readme/ios.gif)| ![.](readme/android.gif) | ![.](readme/web.png) |
+| ![.](readme/ios.gif)| ![.](readme/android.gif) | ![image](https://github.com/flavio-fgjj/conclusao-react-fiap/assets/9452793/1caeb017-f3de-4ac4-afc9-0567e2f8cbfa) |
 
 # 🖖 Start Android
 
